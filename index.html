@@ -10,13 +10,36 @@
 
     <body>
         <h1 class="title">Quick and Easy Recipes</h1>
-        <img    src="./images/home-image.jpg" alt="Quick and easy recipes" height="310" width="auto">
+        <img class="food-image" src="./images/home-image.jpg" alt="Quick and easy recipes" height="310" width="auto">
 
         <h3 class="title">A collection of quick and easy recipes you can try at home!</h3>
-        <ul>
-            <li><a href="./pages/recipes/tortilla-pizza.html">Breakfast Tortilla Pizza</a></li>
-            <li><a href="./pages/recipes/gochujang-chicken.html">Sweet and Spicy Gochujang Chicken</a></li>
-            <li><a href="./pages/recipes/chili-oil-noodles.html">Garlic Chili Oil Noodles</a></li>
-        </ul>
+        <div class="recipe-list">
+            <ul>
+                <li>
+                    <form action="./pages/recipes/tortilla-pizza.html">
+                        <button class="recipe-item" type="submit">
+                            <img class="food-icon" src="./pages/recipes/images/tortilla-pizza.jpg" alt="Tortilla pizza icon" height="50px" width="70px">
+                            <span>Tortilla Pizza</span>
+                        </button>
+                    </form>
+                </li>
+                <li>
+                    <form action="./pages/recipes/gochujang-chicken.html">
+                        <button class="recipe-item" type="submit">
+                            <img class="food-icon" src="./pages/recipes/images/gochujang-chicken.jpg" alt="Gochujang chicken icon" height="50px" width="70px">
+                            <span>Gochujang Chicken</span>
+                        </button>
+                    </form>
+                </li>
+                <li>
+                    <form action="./pages/recipes/chili-oil-noodles.html">
+                        <button class="recipe-item" type="submit">
+                            <img class="food-icon" src="./pages/recipes/images/chili-oil-noodles.jpg" alt="Chili oil noodles icon" height="50px" width="70px">
+                            <span>Chili Oil Noodles</span>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
     </body>
 </html>
