@@ -18,17 +18,13 @@ h3 {
     border: .5rem #454545 solid;
 }
 
-.food-icon {
-    display: inline-block;
-}
-
 li {
     margin-bottom: 1rem;
     list-style: none;
 }
 
 .recipe-item {
-    display: block;
+    flex: auto;
     text-align: left;
     width: 100%;
 }
@@ -43,4 +39,14 @@ p {
 
 .recipe-list {
     width: 20rem;
+}
+
+.food-icon {
+    flex-basis: 0;
+}
+
+.recipe-button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
